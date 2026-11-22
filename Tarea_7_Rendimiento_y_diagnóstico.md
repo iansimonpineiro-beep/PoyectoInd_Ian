@@ -12,7 +12,7 @@
 ## 3. Línea base en reposo
 | Fecha/hora | CPU (%) | RAM usada/disponible | Disco (actividad/espacio) | Red (tráfico) | Temperatura si disponible |
 |---|---:|---|---|---|---|
-| [COMPLETAR] | [ ] | [ ] / [ ] | [ ] | [ ] | [ ] |
+| 22/11/2026 23:10:49 | 4,9% | 7,4Gi / 23Gi | Usado: 29G/121G (26%) / Libre: 86G | wlp3s0 (RX: 2553,68 MB / TX: 75,34 MB) | 40,0 °C |
 
 ## 4. Mediciones por escenarios
 | Escenario | Máquinas encendidas | CPU (%) | RAM (%) | Disco | Red | ¿El equipo responde correctamente? |
