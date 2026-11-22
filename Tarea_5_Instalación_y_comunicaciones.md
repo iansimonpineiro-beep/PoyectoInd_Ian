@@ -2,7 +2,7 @@
 
 ## 1. Inventario de sistemas instalados
 | Sistema / máquina | Función | Arquitectura | RAM | Disco | Estado |
-|---|---|---|---|---:|---:|---|---|
+|---|---|---|---:|---|---|
 | OPNsense | Comunicaciones | 64 bits | 4048 MB | 20 GB (IDE) | Apagada |
 | MikroTik (`vm`) | Router alternativo | 64 bits | | | Apagada |
 | TrueNAS | NAS/SAN | 64 bits | 8192 MB | 2 discos de 20 GB (SATA) | Apagada |
