@@ -12,14 +12,14 @@
 
 ## 2. Práctica individual: creación y verificación de tres RAID
 | Prueba | RAID | Discos virtuales | Herramienta |
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | 1 | RAID 0 | 2 de 2 GB (esperado ≈ 4 GB) | `mdadm --level=0` o pool *stripe* |
 | 2 | RAID 1 | 2 de 2 GB (≈ 2 GB) | `mdadm --level=1` o pool *mirror* |
 | 3 | RAID 5 | 3 de 2 GB (≈ 4 GB) | `mdadm --level=5` o RAIDZ1 |
 
 ## 6. Plan de contingencia
 | Incidencia | Afectado | Copia necesaria | Procedimiento | Prueba funcional |
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | Fallo de una VM | VM de Proxmox o VirtualBox | Copia `vzdump` o exportación OVA | Restaurar desde la copia | La aplicación responde |
 | Se pierde la configuración de red | OPNsense / servidores | `config.xml` y ficheros de red | Importar la configuración | Ping y salida a Internet |
 | Falla un disco de datos | Volumen RAID | Copia de los datos en otro sitio | Cambiar el disco, reconstruir y restaurar si hace falta | Archivos íntegros (checksum) |
