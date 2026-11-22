@@ -12,7 +12,7 @@
 
 ## 2. Práctica individual: creación y verificación de tres RAID
 | Prueba | RAID | Discos virtuales | Herramienta |
-|---|---|---|---|---|
+|---|---|---|---|
 | 1 | RAID 0 | 2 de 2 GB (esperado ≈ 4 GB) | `mdadm --level=0` o pool *stripe* |
 | 2 | RAID 1 | 2 de 2 GB (≈ 2 GB) | `mdadm --level=1` o pool *mirror* |
 | 3 | RAID 5 | 3 de 2 GB (≈ 4 GB) | `mdadm --level=5` o RAIDZ1 |
