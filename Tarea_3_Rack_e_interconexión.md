@@ -10,5 +10,3 @@
 | Windows Server | 1 |
 | Proxmox | 3 |
 | TrueNAS | 1 |
-
-## 3. Esquema físico
